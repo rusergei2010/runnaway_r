@@ -7,7 +7,7 @@ import { Text, View } from "react-native";
 const Page = () => {
 
   return (<View className="flex-1 items-center justify-center bg-amber-400">
-    <Text>Great Day.Open up App.js to start working on your app!</Text>
+    <Text>Open up App.js to start working on your app!</Text>
     <StatusBar style="auto" />
   </View>);
 };
