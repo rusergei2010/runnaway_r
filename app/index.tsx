@@ -3,13 +3,21 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Page = () => {
-
-  return (<View className="flex-1 items-center justify-center bg-amber-400">
-    <Text>YES. Open up App.js to start working on your app!</Text>
-    <StatusBar style="auto" />
-  </View>);
+  return (
+    // <View className="flex-1 items-center justify-center bg-amber-400">
+    //   <Text>Open up App.js to start working on your app!</Text>
+    //   <StatusBar style="auto" />
+    // </View>
+    <SafeAreaView className="flex-1 items-center justify-center bg-amber-300">
+      <Text className="text-blue-700">
+        Open up App.js to start working on your app!
+      </Text>
+      <StatusBar style="auto" />
+    </SafeAreaView>
+  );
 };
 
 export default Page;
