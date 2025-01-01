@@ -11,7 +11,7 @@ const Page = () => {
     //   <Text>Open up App.js to start working on your app!</Text>
     //   <StatusBar style="auto" />
     // </View>
-    <SafeAreaView className="flex-1 items-center justify-center bg-amber-300">
+    <SafeAreaView className="flex-1 items-center justify-center bg-amber-500">
       <Text className="text-blue-700">
         Open up App.js to start working on your app!
       </Text>
